@@ -15,10 +15,3 @@ main {
     width: 100%;
     height: auto;
 }
-
-/* Media-queries - små skärmar */ 
-@media (max-width: 768px) {
-    main {
-        margin: 2em auto;
-    }
-}

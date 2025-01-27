@@ -87,6 +87,12 @@ const trails = [
     level: "Svart",
     haveTried: false,
     rating: 0
+  },
+  {
+    name: "Easy Rider",
+    level: "Blå",
+    haveTried: true,
+    rating: 3
   }
 ]
 
