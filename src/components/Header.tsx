@@ -9,7 +9,7 @@ function Header({ title }: HeaderProps) {
     return (
         <header>
             {/* Header med titel och inline-styling */}
-            <div style={{ backgroundColor: "#222", padding: "1em", textAlign: "center" }}>
+            <div style={{ backgroundColor: "#222", padding: "0.8em", textAlign: "center" }}>
                 <h1 style={{ color: "#fff", margin: "10px" }}>{title}</h1>
             </div>
             {/* Banner-bild */}
