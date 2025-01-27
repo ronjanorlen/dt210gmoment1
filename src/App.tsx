@@ -1,4 +1,3 @@
-import './App.css'
 import BikeTrails from './components/BikeTrails'; // Importera BikeTrails-komponent
 import Footer from './components/Footer'; // Importera footer-komponent
 import Header from './components/Header'; // Importera header-komponent
@@ -95,16 +94,16 @@ function App() {
 
   return (
     <>
-    {/* Header */}
-    <Header title="Cykelleder i Åre" />
-    <main>
-      {/* Loopa igenom BikeTrails med map */}
-      {trails.map((trail, index) => (
-        <BikeTrails key={index} name={trail.name} level={trail.level} haveTried={trail.haveTried} rating={trail.rating} />
-      ))}
-    </main>
-    {/* Footer */}
-    <Footer />
+      {/* Header */}
+      <Header title="Cykelleder i Åre" />
+      <main>
+        {/* Loopa igenom BikeTrails med map */}
+        {trails.map((trail, index) => (
+          <BikeTrails key={index} name={trail.name} level={trail.level} haveTried={trail.haveTried} rating={trail.rating} />
+        ))}
+      </main>
+      {/* Footer */}
+      <Footer />
     </>
   )
 }
