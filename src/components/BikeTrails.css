@@ -1,0 +1,27 @@
+h2 {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.biketrail-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #A00A28;
+    width: 220px;
+    height: auto;
+    text-align: center;
+    border: 2px solid #4b0000;
+    border-radius: 8px;
+    padding: 2em;
+    margin: 1.4em;
+}
+
+@media (max-width: 768px) {
+    .biketrail-card {
+        width: 100%;
+        margin: 1em 3em;
+    }
+}
